@@ -1,11 +1,11 @@
 *{
     font-family: 'Courier Prime', monospace;
 }
-body{
+/* body{
     margin: 0;
     background-color: #333333;
-    background-image: url(/assets/topography.png);
-}
+    background-image: url(assets/topography.png);
+} */
 #navbar{
     position: fixed;
     top: 0; 
