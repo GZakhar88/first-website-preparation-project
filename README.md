@@ -3,7 +3,7 @@
 
 
 **Progress**
-![70%](https://progress-bar.dev/70)
+![100%](https://progress-bar.dev/100)
 
 This a simple webpage about me using basic HTML and CSS. Under the separator (three dashes) there are some IT-related definitions with titles. 
 
