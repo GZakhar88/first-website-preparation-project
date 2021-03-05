@@ -3,8 +3,13 @@
 }
 body{
     margin: 0;
-    background-color: lightgreen;
+    background-color: #333333;
     background-image: url(/assets/topography.png);
+}
+#navbar{
+    position: fixed;
+    top: 0; 
+    width: 100%; 
 }
 .list{
     list-style-type: none;
