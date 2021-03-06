@@ -1,15 +1,24 @@
 *{
     font-family: 'Courier Prime', monospace;
 }
-/* body{
-    margin: 0;
-    background-color: #333333;
-    background-image: url(assets/topography.png);
-} */
 #navbar{
     position: fixed;
     top: 0; 
     width: 100%; 
+}
+#logo{
+    vertical-align: middle;
+    height: 32px;
+    float: left;
+    animation: rotation 10s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
 }
 .list{
     list-style-type: none;
@@ -17,11 +26,6 @@
     padding: 0 10%;
     overflow: hidden;
     background-color: #333333;
-}
-#logo{
-    vertical-align: middle;
-    float: left;
-    /* background-color: magenta; */
 }
 li{
     float: right;
