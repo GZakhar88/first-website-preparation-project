@@ -37,8 +37,12 @@ li a{
     color: #ff0099;
     text-align: center;
     padding: 10px 15px;
+} 
+li a:hover {
+    background-color: #ff0099;
+    color: #333333;    
 }
-h1{
+h1{ 
     font-family: 'Jura', sans-serif;
     font-weight: bold;
     padding: 0 10%;
