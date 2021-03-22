@@ -79,11 +79,52 @@ h3{
     padding: 0 10%;
 }
 .wikiItems li{
-    float: left;
+    float: center;
 }
 .wikiItemTitle{
     font-family: 'Jura', sans-serif;
     font-weight: bold;
     font-size: 30px; 
-    margin-block-end: 0;
+    align-items: center;
+}
+/*====== Glass effect ======*/
+.itemContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.itemContainer .card{
+    position: relative;
+    width: 280px;
+    height: 375px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+    border-left: 1px solid rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(0.7px);
+}
+.itemContainer .card .wItem{
+    padding: 10px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+}
+.itemContainer .card:hover .wItem{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.itemContainer .card .wikiItemTitle{
+    padding: 1px;
+    text-align: center; 
 }
